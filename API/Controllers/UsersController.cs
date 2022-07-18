@@ -24,10 +24,10 @@ namespace API.Controllers
             return await _context.Users!.ToListAsync();
         }
 
-        //[HttpGet("{id}/GetUsers")]
-        //public async Task<ActionResult<AppUser>> GetUser(int id)
-        //{
-        //    return await _context.Users.FindAsync(id);
-        //}
+        [HttpGet("{id}/GetUsers")]
+        public async Task<ActionResult<AppUser>> GetUser(int id)
+        {
+            return await _context.Users.FindAsync(id);
+        }
     }
 }
