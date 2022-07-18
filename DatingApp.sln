@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{5E0C0C85-0C44-4669-91CC-CCED9CE0A505}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{BA78772E-7726-4385-B048-F238268B6720}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{BA78772E-7726-4385-B048-F238268B6720}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
