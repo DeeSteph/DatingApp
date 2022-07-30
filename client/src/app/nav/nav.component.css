@@ -1,0 +1,14 @@
+.dropdown-toggle,
+.dropdown-item{
+    cursor: pointer;
+}
+
+.dropdown-menu{
+    inset: auto !important;
+    transform: translateY(0px) !important;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
