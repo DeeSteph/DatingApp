@@ -11,9 +11,12 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" routerLink="/messages"  routerLinkActive="active">Messages</a>
-              </li>
+              </li>              
             </ul>
-          </ng-container>   
+          </ng-container> 
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/errors"  routerLinkActive="active">Errors</a>
+          </li>  
           
           <div clas="dropdown" *ngIf="(accountServices.currentUser$ | async) as user" dropdown>
               <a class="dropdown-toggle text-light" dropdownToggle>Welcome {{user.username | titlecase}}</a>
@@ -35,7 +38,7 @@
             class="form-control mr-sm-2" 
             type="password" 
             placeholder="Password">
-            <button class="btn btn-outline-success btn-sm" type="submit">Login</button>
+            <button class="btn btn-success btn-sm" type="submit">Login</button>
           </form>
         </div>
   </nav>
