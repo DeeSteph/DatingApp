@@ -9,7 +9,7 @@ namespace API.MiddleWare
         private readonly RequestDelegate _next;
         private readonly ILogger<ExceptionMiddleware> _logger;
         private readonly IHostEnvironment _env;
-
+        //send neww
         public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger, 
                                    IHostEnvironment env)
         {
